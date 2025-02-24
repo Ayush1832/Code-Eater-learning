@@ -59,7 +59,7 @@ contract SimpleWallet {
             Transaction({
                 from: msg.sender,
                 to: address(this),
-                timestamp: block.timestamp,
+                timestamp: block.timestamp, 
                 amount: msg.value
             })
         );
