@@ -42,7 +42,7 @@ contract SimpleWallet {
         _;
     }
 
-    function toggleStop() external onlyOwner { 
+    function toggleStop() external onlyOwner {   
         stop = !stop;
     }
 
