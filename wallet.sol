@@ -44,7 +44,7 @@ contract SimpleWallet {
 
     function toggleStop() external onlyOwner { 
         
-    }
+    } 
 
     function changOwner(address newOwner) public onlyOwner isEmergencyDeclared {
         owner = newOwner; 
