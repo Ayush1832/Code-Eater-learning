@@ -40,7 +40,7 @@ contract SimpleWallet {
     modifier isEmergencyDeclared() {
         require(stop == false, "Emergency declared");
         _;
-    }
+    } 
 
     function toggleStop() external onlyOwner { 
         
