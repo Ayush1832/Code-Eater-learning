@@ -18,3 +18,4 @@ contract SuperCar is Car {
     uint public modelNumber = 121;
     string public modelName = "Texxo";
 }
+
