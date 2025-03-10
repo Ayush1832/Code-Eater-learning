@@ -11,7 +11,7 @@ contract SimpleWallet {
     }
 
     Transaction[] public transactionHistory;
-
+ 
     address public owner;
     string public str;
     bool public stop;
