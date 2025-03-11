@@ -16,7 +16,7 @@ contract SimpleWallet {
     string public str;
     bool public stop;
     event Transfer(address receiver, uint amount);
-    event Receive(address sender, uint amonut);
+    event Receive(address sender, uint amonut); 
     event ReceiveUser(address sender, address receiver, uint amount);
 
     constructor() {
